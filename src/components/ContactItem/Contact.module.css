@@ -1,0 +1,37 @@
+.indexName {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 8px;
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: block;
+    padding: 0px 10px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(216, 216, 216);
+    cursor: pointer;
+    transition: background-color 75ms linear;
+    border: 0.5px solid rgb(98, 98, 98);
+    font-size: 16px;
+    box-shadow: 0 0.1rem 0.2rem #5b5a5ab5;
+  }
+  
+  .btn:hover {
+    background-color: rgb(255, 101, 101);
+    color: rgb(255, 255, 255);
+    box-shadow: none;
+  }
+
+  .numberBtn {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+    font-size: 1.2rem;
+  }
+
+  .numberBtn p{
+    margin: 0;
+  }

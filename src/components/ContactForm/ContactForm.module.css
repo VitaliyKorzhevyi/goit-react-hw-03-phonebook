@@ -1,0 +1,55 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    padding: 10px;
+  }
+  
+  .field {
+    padding: 10px 10px;
+    width: 250px;
+    height: 20px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    font-size: 1.2rem;
+  }
+  
+  .field::placeholder {
+    font-size: 1rem;
+  }
+  
+  .label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label p {
+    margin-bottom: 4px;
+    font-size: 1.2rem;
+  }
+  
+  .btn {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    padding: 14px 40px;
+    border-radius: 10px;
+    background-color: rgb(216, 216, 216);
+    cursor: pointer;
+    transition: background-color 75ms linear;
+    border: 0.5px solid rgb(98, 98, 98);
+    font-size: 20px;
+    box-shadow: 0 0.1rem 0.4rem #555555b5;
+  }
+  
+  .btn:hover {
+    background-color: rgb(106, 111, 255);
+    color: rgb(255, 255, 255);
+    box-shadow: none;
+  }
+  
+  .error {
+    margin-left: 1px;
+    font-size: 1rem;
+    color: red;
+  }
