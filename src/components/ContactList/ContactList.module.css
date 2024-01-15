@@ -1,0 +1,16 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    gap: 4px;
+  }
+  
+  .list li {
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    justify-content: space-between;
+    width: 580px;
+  }
